@@ -11,6 +11,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Bootleg Dumpster -->
+    <string name="bootleg_dumpster_title">Bootleg Dumpster</string>
+    <string name="bootleg_dumpster_summary">Where the broken stuff is placed</string>
+
     <!-- Bootleggers version in About phone -->
     <string name="rom_version_title">Bootleggers version</string>
 
