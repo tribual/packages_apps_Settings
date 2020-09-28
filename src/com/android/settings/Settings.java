@@ -240,4 +240,9 @@ public class Settings extends SettingsActivity {
      */
     public static class MediaControlsSettingsActivity extends SettingsActivity {}
 
+    /**
+     * Bootleggers custom activities
+     */
+    public static class BootlegDumpsterActivity extends SettingsActivity {}
+
 }

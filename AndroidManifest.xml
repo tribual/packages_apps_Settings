@@ -3411,5 +3411,19 @@
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- Bootleg Dumpster activity -->
+        <activity android:name=".Settings$BootlegDumpsterActivity"
+                  android:label="@string/bootleg_dumpster_title"
+                  android:icon="@drawable/ic_homepage_bootlegdump"
+                  android:parentActivityName="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.action.SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.bootleggers.dumpster.MainDump"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/bootleg_dumpster_summary"/>
+        </activity>
     </application>
 </manifest>
