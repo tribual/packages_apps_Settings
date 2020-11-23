@@ -1,4 +1,4 @@
 .idea/
 *.iml
-res-dumpster/
-src_dumpster/
+res-dumpster
+src_dumpster
